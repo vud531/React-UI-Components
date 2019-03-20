@@ -5,13 +5,14 @@ import './Button.css';
 const NumberButton = props => {
     console.log(props.numberButtonProp);
     const prop = props.numberButtonProp;
-    const display = (number) => {
-        document.querySelector(".display").innerHTML = number;
-    }
+    // const display = (number) => {
+    //     document.querySelector(".display").innerHTML =+ number;
+    // }
     return (
         <button 
-        className="number-button" 
-        onClick={ () => display(prop.content) } >{prop.content}</button>
+        className="button number-button" 
+        // onClick={ () => display(prop.content) } 
+        >{prop.content}</button>
     );
 }
 
