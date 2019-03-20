@@ -10,7 +10,7 @@ const ActionButton = props => {
     // }
     return (
         <button 
-        className="button action-button" 
+        className={"button action-button " + (props.className? props.className : "") }  
         // onClick={ () => display(prop.content) } 
         >{prop.content}</button>
     );

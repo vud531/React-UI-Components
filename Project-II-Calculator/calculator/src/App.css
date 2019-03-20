@@ -1,0 +1,10 @@
+.calculator {
+    width: auto;
+}
+button, .display {
+    height: 50px;
+}
+.top-panel, .input-panel {
+    width: 80%;
+    display: flex;
+}

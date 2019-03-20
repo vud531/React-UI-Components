@@ -1,0 +1,16 @@
+.top-panel {
+}
+
+.display {
+    background: black;
+    color: greenyellow;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top-panel button {
+    width: 20%;
+}
+
